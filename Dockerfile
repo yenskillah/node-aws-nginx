@@ -1,3 +1,3 @@
 FROM node:5
 
-RUN apt-get update && apt-get install awscli -y && apt-get install nginx
+RUN apt-get update && apt-get install awscli -y && apt-get install nginx -y
